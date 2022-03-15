@@ -19,7 +19,7 @@ nav {
 }
 .top-nav {
   max-width: 1200px;
-  height: 60px;
+  height: 55px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -31,21 +31,24 @@ nav {
   display: flex;
 }
 .logo {
-  line-height: 55px;
-  padding: 0 20px 0 10px;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-left: 5px;
   text-decoration: underline;
 }
 .logo-text {
   font-size: 20px;
   line-height: 60px;
+  display: none;
 }
 ion-icon.globe-icon {
-  font-size: 60px;
-  --ionicon-stroke-width: 3px;
-  margin: 0 auto;
-  padding: 0 5px;
-  color: blue;
-  background-color: rgb(209, 241, 245);
+  font-size: 29px;
+  --ionicon-stroke-width: 20px;
+  margin: 13px 0 13px 20px;
+  color: rgb(255, 255, 255);
+  background-color: #0078d4;
 }
 .menu-button-box {
   display: flex;
@@ -54,67 +57,130 @@ ion-icon.globe-icon {
 .menu-button-text {
   font-size: 17px;
   font-weight: 500;
-  line-height: 60px;
-  padding: 0 10px;
+  line-height: 55px;
 }
 ion-icon.menu-button-bars {
   font-size: 30px;
-  --ionicon-stroke-width: 15px;
-  padding: 15px;
+  --ionicon-stroke-width: 20px;
+  padding: 13px;
 }
+#main-menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(59, 59, 59, 0.5);
+  display: none;
+}
+.main-menu-box {
+  float: right;
+  width: 350px;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.main-menu-box-top-row {
+  height: 55px;
+  
+  display: block;
+  border-bottom: 1px solid rgb(233, 221, 221);
+}
+.home-icon-text-container{
+    border: solid red;
+    float: left;
+}
+ion-icon.home-icon {
+  border: solid blue;
+}
+.home-icon-text-container p {
+  display: inline-block;
+  font-size: 20px;
+  border: solid blue;
+}
+.search-xmark-icon-container{
+    float: right;
+}
+ion-icon.search-icon {
+  border: solid blue;
+  
+}
+ion-icon#xmark-box {
+    
+  float: right;
+  font-size: 19px;
+  padding: 18px;
+  border-left: 1px solid rgb(233, 221, 221);
+  cursor: pointer;
+}
+
+/*======================MAIN==SECTION==STYLING===================================================================================================*/
+
 .main-header {
-    width: 100vw;
+  width: 100vw;
   background-color: #002050;
   color: white;
 }
-.main-header-container{
-    max-width: 1200px;
-    margin: 0 auto;
+.main-header-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .site-intro {
   font-size: 40px;
   font-weight: bold;
-  padding: 35px;
+  padding: 20px;
 }
 .site-intro-sub-heading {
   font-size: 15px;
-  padding: 0 40px 10px 40px;
+  padding: 0 0 10px 20px;
 }
 .main-section {
-    background-color: #f2f2f2;
-  }
-.guide-cards-container{
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px 5px 20px 5px;
+  background-color: #f2f2f2;
 }
-.guide-card{
-    background-color: white;
-    flex: 100%;
-min-height: 150px;
-display: flex;
-flex-direction: column;
-margin: 10px;
-padding: 30px;
-box-shadow: 0 1px 5px 1px rgb(192, 192, 192);
-font-size: 20px;
-font-weight: bold;
-line-height: 30px;
+.main-section-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.guide-card a{
-    font-size: 15px;
+.guide-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.guide-card {
+  background-color: white;
+  flex: 100%;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  padding: 30px;
+  box-shadow: 0 1px 5px 1px rgb(192, 192, 192);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.guide-card a {
+  width: fit-content;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 3px 0;
 }
 @media (min-width: 1000px) {
-    .guide-card{
-        flex: 30%;
-    }
-    
+  .guide-card {
+    flex: 25%;
+  }
 }
-.main-footer{
-    height: 100px;
-    padding: 20px;
-    background-color: #e6e6e6;
-    text-align: center;
+.sub-section-header {
+  margin-left: 20px;
+}
+.white-space-box {
+  height: 800px;
+}
+.main-footer {
+  height: 100px;
+  padding: 20px;
+  background-color: #e6e6e6;
+  text-align: center;
 }
