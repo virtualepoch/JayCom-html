@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+body {
+  width: 100vw;
+}
+nav {
+  width: 100vw;
+  border-bottom: 1px solid rgb(233, 221, 221);
+}
+.top-nav {
+  max-width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home-link {
+  color: black;
+}
+.logo-box {
+  display: flex;
+}
+.logo {
+  line-height: 55px;
+  padding: 0 20px 0 10px;
+  text-decoration: underline;
+}
+.logo-text {
+  font-size: 20px;
+  line-height: 60px;
+}
+ion-icon.globe-icon {
+  font-size: 60px;
+  --ionicon-stroke-width: 3px;
+  margin: 0 auto;
+  padding: 0 5px;
+  color: blue;
+  background-color: rgb(209, 241, 245);
+}
+.menu-button-box {
+  display: flex;
+  cursor: pointer;
+}
+.menu-button-text {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 60px;
+  padding: 0 10px;
+}
+ion-icon.menu-button-bars {
+  font-size: 30px;
+  --ionicon-stroke-width: 15px;
+  padding: 15px;
+}
+.main-header {
+    width: 100vw;
+  background-color: #002050;
+  color: white;
+}
+.main-header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.site-intro {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 35px;
+}
+.site-intro-sub-heading {
+  font-size: 15px;
+  padding: 0 40px 10px 40px;
+}
+.main-section {
+    background-color: #f2f2f2;
+  }
+.guide-cards-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 5px 20px 5px;
+}
+.guide-card{
+    background-color: white;
+    flex: 100%;
+min-height: 150px;
+display: flex;
+flex-direction: column;
+margin: 10px;
+padding: 30px;
+box-shadow: 0 1px 5px 1px rgb(192, 192, 192);
+font-size: 20px;
+font-weight: bold;
+line-height: 30px;
+}
+.guide-card a{
+    font-size: 15px;
+}
+@media (min-width: 1000px) {
+    .guide-card{
+        flex: 30%;
+    }
+    
+}
+.main-footer{
+    height: 100px;
+    padding: 20px;
+    background-color: #e6e6e6;
+    text-align: center;
+}
