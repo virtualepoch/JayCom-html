@@ -73,6 +73,7 @@ ion-icon.menu-button-bars {
   height: 100vh;
   width: 100vw;
   background-color: rgb(59, 59, 59, 0.5);
+  display: none;
  }
 .main-menu-box {
   float: right;
