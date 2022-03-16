@@ -7,3 +7,13 @@ function openMainMenu(){
         main_menu.style.display="";
     }
 }
+
+var table_contents = document.getElementById("table-contents-container");
+
+function openTableContents(){
+    if(table_contents.style.display ==""){
+        table_contents.style.display="block";
+    }else{
+        table_contents.style.display="";
+    }
+}
