@@ -34,7 +34,7 @@
                 <div class="main-menu-box-top-row">
                     <div class="home-icon-text-container">
                         <ion-icon class="home-icon" name="home-outline"></ion-icon>
-                        <p>Docs</p>
+                        <h1>Docs</h1>
                     </div>
                     <div class="search-xmark-icon-container">
                         <ion-icon class="search-icon" name="search-sharp"></ion-icon>
@@ -69,58 +69,252 @@
 
     <section id="guide1-section">
 
+        <!-- ==TABLE=OF=CONTENTS==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
         <div id="table-contents-container">
             <div class="table-contents-searchbar"><i class="fa-solid fa-filter"></i>Filter by title</div>
             <div class="table-contents-header">Welcome to Help Central</div>
 
-            <!-- ==GUIDE=ARTICLE=SECTION==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
-            <div class="table-contents-guide-button"><i id="arrow-icon" class="fa-solid fa-angle-right"></i>Guide 1
+            <!-- ==GUIDE=1==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
+            <div class="table-contents-guide-button" onclick="expandGuide_1()"><i id="guide-arrow-1"
+                    class="fa-solid fa-angle-right"></i>
+                <h1>Guide 1</h1>
             </div>
-            <div class="table-contents-article-button"><i id="arrow-icon" class="fa-solid fa-angle-right"></i>Article 1
+
+            <div id="table-contents-articles-container-1">
+                <div class="table-contents-article-button" onclick="expandArticle_1()"><i id="article-arrow-1"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 1</h1>
+                </div>
+                <div id="table-contents-links-container-1">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1 - Welcome to JayCom Help Central</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="table-contents-article-button" onclick="expandArticle_2()"><i id="article-arrow-2"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 2</h1>
+                </div>
+                <div id="table-contents-links-container-2">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div id="table-contents-links-container">
-                <div id="table-contents-link">Section 1 - Welcome to JayCom Help Central</div>
-                <div id="table-contents-link">Section 2</div>
-                <div id="table-contents-link">Section 3</div>
+            <!-- ==GUIDE=2==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
+            <div class="table-contents-guide-button" onclick="expandGuide_2()"><i id="guide-arrow-2"
+                    class="fa-solid fa-angle-right"></i>
+                <h1>Guide 2</h1>
             </div>
-            <div class="table-contents-article-button"><i id="arrow-icon" class="fa-solid fa-angle-right"></i>Article 2
+
+            <div id="table-contents-articles-container-2">
+                <div class="table-contents-article-button" onclick="expandArticle_3()"><i id="article-arrow-3"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 1</h1>
+                </div>
+                <div id="table-contents-links-container-3">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="table-contents-article-button" onclick="expandArticle_4()"><i id="article-arrow-4"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 2</h1>
+                </div>
+                <div id="table-contents-links-container-4">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div id="table-contents-links-container">
-                <div id="table-contents-link">Section 1</div>
-                <div id="table-contents-link">Section 2</div>
-                <div id="table-contents-link">Section 3</div>
+            <!-- ==GUIDE=3==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
+            <div class="table-contents-guide-button" onclick="expandGuide_2()"><i id="guide-arrow-2"
+                    class="fa-solid fa-angle-right"></i>
+                <h1>Guide 3</h1>
             </div>
-            <!-- ==GUIDE=2========================================================== -->
-            <div class="table-contents-guide-button"><i id="arrow-icon" class="fa-solid fa-angle-right"></i>Guide 2
+
+            <div id="table-contents-articles-container-2">
+                <div class="table-contents-article-button" onclick="expandArticle_3()"><i id="article-arrow-3"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 1</h1>
+                </div>
+                <div id="table-contents-links-container-3">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="table-contents-article-button" onclick="expandArticle_4()"><i id="article-arrow-4"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 2</h1>
+                </div>
+                <div id="table-contents-links-container-4">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="table-contents-article-button"><i id="arrow-icon" class="fa-solid fa-angle-right"></i>Article 1
+            <!-- ==GUIDE=4==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
+            <div class="table-contents-guide-button" onclick="expandGuide_2()"><i id="guide-arrow-2"
+                    class="fa-solid fa-angle-right"></i>
+                <h1>Guide 4</h1>
             </div>
-            <div id="table-contents-links-container">
-                <div id="table-contents-link">Section 1</div>
-                <div id="table-contents-link">Section 2</div>
+
+            <div id="table-contents-articles-container-2">
+                <div class="table-contents-article-button" onclick="expandArticle_3()"><i id="article-arrow-3"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 1</h1>
+                </div>
+                <div id="table-contents-links-container-3">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="table-contents-article-button" onclick="expandArticle_4()"><i id="article-arrow-4"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 2</h1>
+                </div>
+                <div id="table-contents-links-container-4">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="table-contents-article-button"><i id="arrow-icon" class="fa-solid fa-angle-right"></i>Article 2
+            <!-- ==GUIDE=5==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
+            <div class="table-contents-guide-button" onclick="expandGuide_2()"><i id="guide-arrow-2"
+                    class="fa-solid fa-angle-right"></i>
+                <h1>Guide 5</h1>
             </div>
-            <div id="table-contents-links-container">
-                <div id="table-contents-link">Section 1</div>
-                <div id="table-contents-link">Section 2</div>
+
+            <div id="table-contents-articles-container-2">
+                <div class="table-contents-article-button" onclick="expandArticle_3()"><i id="article-arrow-3"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 1</h1>
+                </div>
+                <div id="table-contents-links-container-3">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="table-contents-article-button" onclick="expandArticle_4()"><i id="article-arrow-4"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 2</h1>
+                </div>
+                <div id="table-contents-links-container-4">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <!-- ==GUIDE=3=========================================================== -->
-            <div class="table-contents-guide-button"><i id="arrow-icon" class="fa-solid fa-angle-right"></i>Guide 3
+            <!-- ==GUIDE=6==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
+            <div class="table-contents-guide-button" onclick="expandGuide_2()"><i id="guide-arrow-2"
+                    class="fa-solid fa-angle-right"></i>
+                <h1>Guide 6</h1>
             </div>
-            <div class="table-contents-article-button"><i id="arrow-icon" class="fa-solid fa-angle-right"></i>Article 1
+
+            <div id="table-contents-articles-container-2">
+                <div class="table-contents-article-button" onclick="expandArticle_3()"><i id="article-arrow-3"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 1</h1>
+                </div>
+                <div id="table-contents-links-container-3">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="table-contents-article-button" onclick="expandArticle_4()"><i id="article-arrow-4"
+                        class="fa-solid fa-angle-right"></i>
+                    <h1>Article 2</h1>
+                </div>
+                <div id="table-contents-links-container-4">
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 1</h1>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="table-contents-link">
+                            <h1>Section 2</h1>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div id="table-contents-links-container">
-                <div id="table-contents-link">Section 1</div>
-                <div id="table-contents-link">Section 2</div>
-            </div>
-            <div class="table-contents-article-button"><i id="arrow-icon" class="fa-solid fa-angle-right"></i>Article 2
-            </div>
-            <div id="table-contents-links-container">
-                <div id="table-contents-link">Section 1</div>
-                <div id="table-contents-link">Section 2</div>
-            </div>
-            <!-- ==GUIDE=ARTICLE=SECTION==AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+            <!-- ==END=OF=TABLE=OF=CONTENTS================================================ -->
 
         </div>
         <div class="article-container">
@@ -147,11 +341,12 @@
                     reiciendis
                     quis explicabo!
                 </p>
+
             </div>
         </div>
         <div class="in-this-article-container">
-            <p>In this article</p>
-            <a href="/guide1.html" class="article-section-link">Overview</a>
+            <h1>In this article</h1>
+            <a href="/guide1.html" class="article-section-link active">Overview</a>
             <a href="/guide1.html" class="article-section-link">Overview</a>
             <a href="/guide1.html" class="article-section-link">Overview</a>
             <a href="/guide1.html" class="article-section-link">Overview</a>

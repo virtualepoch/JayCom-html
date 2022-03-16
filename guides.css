@@ -44,12 +44,14 @@
 
 /* ==TABLE=CONTENTS=STYLING==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 #table-contents-container {
-  border: 1px solid gray;
   flex: 30%;
-  height: 100vh;
+  height: 90vh;
   padding: 10px 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
   display: none;
 }
+
 .table-contents-searchbar {
   border: 1px solid gray;
   padding: 5px;
@@ -68,30 +70,50 @@
   padding: 5px 15px;
 }
 .table-contents-guide-button {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 2px;
+  cursor: pointer;
 }
 .table-contents-guide-button i {
-  color: black;
-  padding: 5px 5px 5px 1px;
+  color: rgb(100, 100, 100);
+  padding: 5px;
+  transition: 0.5s;
+}
+.table-contents-guide-button h1 {
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 2px 1px;
+}
+#table-contents-articles-container-1 {
+  display: none;
 }
 .table-contents-article-button {
-  font-size: 14px;
   margin-left: 20px;
   padding: 2px;
+  cursor: pointer;
+}
+.table-contents-article-button h1 {
+  font-size: 14px;
 }
 .table-contents-article-button i {
-  color: black;
-  padding: 5px 5px 5px 1px;
+  color: rgb(100, 100, 100);
+  padding: 5px;
+  transition: 0.5s;
 }
-#table-contents-link{
+.table-contents-article-button h1 {
+  display: inline;
+}
+#table-contents-links-container-1,
+#table-contents-links-container-2 {
+  display: none;
+}
+#table-contents-link h1 {
   font-size: 14px;
   margin-left: 34px;
   padding: 5px;
+  color: black;
   cursor: pointer;
 }
-#table-contents-link:hover{
+#table-contents-link:hover {
   text-decoration: underline;
 }
 
@@ -132,21 +154,27 @@
 
 /* ==IN=THIS=ARTICLE=SECTION==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 .in-this-article-container {
-  border: 1px solid gray;
   flex: 20%;
   height: 100vh;
-    display: flex;
+  display: flex;
   flex-direction: column;
   padding: 10px 15px;
 }
 .in-this-article-container p {
   font-weight: 600;
+  margin-bottom: 10px;
 }
 .in-this-article-container a {
   width: fit-content;
-  padding: 4px 6px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 5px 6px;
   color: #4287d5;
 }
 .in-this-article-container a:hover {
   text-decoration: underline;
+}
+.in-this-article-container a.active {
+  border-left: 2px solid #4287d5;
+  font-weight: 500;
 }
