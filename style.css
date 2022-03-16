@@ -41,7 +41,7 @@ nav {
 .logo-text {
   font-size: 20px;
   line-height: 60px;
-  display: none;
+  display: none; /*!!!!!!!!!!!DISPLAY NONE!!!!!!!!!!*/
 }
 ion-icon.globe-icon {
   font-size: 29px;
@@ -69,53 +69,69 @@ ion-icon.menu-button-bars {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 11;
   height: 100vh;
   width: 100vw;
   background-color: rgb(59, 59, 59, 0.5);
-  display: none;
-}
+ }
 .main-menu-box {
   float: right;
-  width: 350px;
+  width: 335px;
   height: 100vh;
   background-color: white;
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 400px) {
+  .main-menu-box {
+    width: 100vw;
+  }
+}
 .main-menu-box-top-row {
   height: 55px;
-  
   display: block;
   border-bottom: 1px solid rgb(233, 221, 221);
 }
-.home-icon-text-container{
-    border: solid red;
-    float: left;
+.home-icon-text-container {
+  display: flex;
+  height: 55px;
+  float: left;
 }
 ion-icon.home-icon {
-  border: solid blue;
+  font-size: 15px;
+  margin: 20px 6px;
 }
 .home-icon-text-container p {
-  display: inline-block;
-  font-size: 20px;
-  border: solid blue;
+  line-height: 55px;
+  font-size: 18px;
+  font-weight: 500;
 }
-.search-xmark-icon-container{
-    float: right;
+.search-xmark-icon-container {
+  float: right;
 }
 ion-icon.search-icon {
-  border: solid blue;
-  
+  font-size: 19px;
+  margin: 18px 10px;
+  transform: scaleX(-1);
 }
 ion-icon#xmark-box {
-    
   float: right;
   font-size: 19px;
   padding: 18px;
   border-left: 1px solid rgb(233, 221, 221);
   cursor: pointer;
 }
-
+.main-menu-header {
+  color: #696969;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 18px 0 18px 15px;
+}
+.main-menu-link {
+  padding: 13px 15px;
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+}
 /*======================MAIN==SECTION==STYLING===================================================================================================*/
 
 .main-header {
