@@ -12,13 +12,15 @@
 }
 body {
   width: 100vw;
+  padding-right: 17px;
 }
 nav {
   width: 100vw;
+  padding-right: 7px;
   border-bottom: 1px solid rgb(233, 221, 221);
 }
 .top-nav {
-  max-width: 1200px;
+  max-width: 1600px;
   height: 55px;
   margin: 0 auto;
   display: flex;
@@ -74,7 +76,7 @@ ion-icon.menu-button-bars {
   width: 100vw;
   background-color: rgb(59, 59, 59, 0.5);
   display: none;
- }
+}
 .main-menu-box {
   float: right;
   width: 335px;
@@ -123,7 +125,7 @@ ion-icon#xmark-box {
   cursor: pointer;
 }
 .main-menu-header {
-  color: #696969;
+  color: #4287d5;
   font-size: 16px;
   font-weight: 500;
   padding: 18px 0 18px 15px;
@@ -133,15 +135,15 @@ ion-icon#xmark-box {
   font-size: 14px;
   color: rgb(102, 102, 102);
 }
-/*======================MAIN==SECTION==STYLING===================================================================================================*/
 
+/*==MAIN=SECTION=STYLING==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 .main-header {
   width: 100vw;
   background-color: #002050;
   color: white;
 }
 .main-header-container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 .site-intro {
@@ -157,7 +159,7 @@ ion-icon#xmark-box {
   background-color: #f2f2f2;
 }
 .main-section-container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 .guide-cards-container {
