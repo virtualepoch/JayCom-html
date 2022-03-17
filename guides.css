@@ -119,6 +119,11 @@
   margin-top: -5px;
   cursor: pointer;
 }
+@media (max-width: 800px){
+  .table-contents-header i{
+    display: none;
+  }
+}
 .table-contents-guide-button {
   cursor: pointer;
 }
@@ -191,7 +196,7 @@
   display: flex;
 }
 .article-1-text-container {
-  border: 1px solid gray;
+  
   flex: 70%;
 }
 .section-header {
