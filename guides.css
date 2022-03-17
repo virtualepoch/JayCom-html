@@ -44,10 +44,12 @@
 
 /* ==TABLE=CONTENTS=STYLING==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 #table-contents-container {
+  position: sticky;
+  top: 0;
   flex: 30%;
   min-width: 280px;
   height: 90vh;
-  padding: 0 20px 80px 20px;
+  padding: 10px 20px 80px 20px;
   overflow-x: hidden;
   overflow-y: auto;
   display: none;
@@ -107,7 +109,15 @@
   font-size: 14px;
   font-weight: 500;
   margin-top: 10px;
-  padding: 5px 15px;
+  padding: 5px 0 5px 15px;
+}
+.table-contents-header i {
+  float: right;
+  border-left: 1px solid rgb(200, 200, 200);
+  padding: 6px 8px;
+  font-size: 16px;
+  margin-top: -5px;
+  cursor: pointer;
 }
 .table-contents-guide-button {
   cursor: pointer;
@@ -177,22 +187,12 @@
 }
 
 /* ==MIDDLE=FLEX=BOX==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
-#article-1-flexbox {
-  flex: 90%;
-  
-}
 #article-1-container {
-  width: fit-content;
-  
   display: flex;
-  
 }
 .article-1-text-container {
   border: 1px solid gray;
-  height: 90vh;
   flex: 70%;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 .section-header {
   padding: 20px;
@@ -245,28 +245,30 @@
 
 /* ==IN=THIS=ARTICLE=SECTION==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 .in-this-article-container {
+  position: sticky;
+  top: 0;
+  height: 100%;
   flex: 10%;
-
-  height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 10px 15px;
 }
-.in-this-article-container p {
+.in-this-article-container h1{
+  font-size: 17px;
   font-weight: 600;
-  margin-bottom: 10px;
+  padding: 15px 5px;
 }
-.in-this-article-container a {
+.in-this-article-container h2 {
   width: fit-content;
   font-size: 14px;
   line-height: 14px;
   padding: 5px 6px;
   color: #4287d5;
 }
-.in-this-article-container a:hover {
+.in-this-article-container h2:hover {
   text-decoration: underline;
 }
-.in-this-article-container a.active {
+.article-section-link.active h2{
   border-left: 2px solid #4287d5;
   font-weight: 500;
 }

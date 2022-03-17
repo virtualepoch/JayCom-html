@@ -76,7 +76,8 @@
                 <div class="table-close-button" onclick="openTableContents()"><i class="fa-solid fa-xmark"></i></div>
             </div>
             <div class="table-contents-searchbar"><i class="fa-solid fa-filter"></i>Filter by title</div>
-            <div class="table-contents-header">Welcome to Help Central</div>
+            <div class="table-contents-header">Welcome to Help Central<i class="fa-solid fa-xmark"
+                    onclick="openTableContents()"></i></div>
 
             <!-- ==GUIDE=1==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
             <div class="table-contents-guide-button" onclick="expandGuide_1()"><i id="guide-arrow-1"
@@ -321,35 +322,33 @@
             <!-- ==END=OF=TABLE=OF=CONTENTS================================================ -->
 
         </div>
-        <div class="article-1-flexbox">
-            <div id="article-1-container">
-                <div class="article-1-text-container">
-                    <div class="section-header">
-                        <h1 id="article-1-section-1-title"></h1>
-                        <p id="article-1-section-1-details"></p>
-                        <div class="rate-box">
-                            <i class="fa-solid fa-thumbs-up"></i>
-                            <i class="fa-solid fa-thumbs-down"></i>
-                        </div>
-                    </div>
-                    <div class="article-1-main-text">
-                        <p id="article-1-section-1-text"></p>
-                        <h1 id="article-1-section-2-title"></h1>
-                        <p id="article-1-section-2-text"></p>
-                        <h1 id="article-1-other-title"></h1>
-                        <p id="article-1-other-text"></p>
-                    </div>
-                </div>
-
-                <div class="in-this-article-container">
-                    <h1>In this article</h1>
-                    <a href="/guide1.html" class="article-section-link active">Section 1</a>
-                    <a href="/guide1.html" class="article-section-link">Section 2</a>
-                    <a href="/guide1.html" class="article-section-link">Other</a>
-                    <a href="/guide1.html" class="article-section-link">Other</a>
+        <!-- ==ARTICLE=1=SECTION==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
+        <div class="article-1-text-container">
+            <div class="section-header">
+                <h1 id="article-1-section-1-title"></h1>
+                <p id="article-1-section-1-details"></p>
+                <div class="rate-box">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
                 </div>
             </div>
+            <div class="article-1-main-text">
+                <p id="article-1-section-1-text"></p>
+                <h1 id="article-1-section-2-title"></h1>
+                <p id="article-1-section-2-text"></p>
+                <h1 id="article-1-other-title"></h1>
+                <p id="article-1-other-text"></p>
+            </div>
         </div>
+
+        <div class="in-this-article-container">
+            <h1>In this article</h1>
+            <a href="/guide1.html" class="article-section-link active"><h2>Section 1</h2></a>
+            <a href="/guide1.html" class="article-section-link"><h2>Section 2</h2></a>
+            <a href="/guide1.html" class="article-section-link"><h2>Other</h2></a>
+            <a href="/guide1.html" class="article-section-link"><h2>Other</h2></a>
+        </div>
+
     </section>
 
     <footer class="main-footer">&copy JayCom US Enterprises Inc. 2022</footer>
