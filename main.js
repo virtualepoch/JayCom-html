@@ -55,3 +55,6 @@ function expandArticle_2() {
     article_arrow_2.style.transform = "none";
   }
 }
+
+
+

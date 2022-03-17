@@ -34,7 +34,7 @@
                 <div class="main-menu-box-top-row">
                     <div class="home-icon-text-container">
                         <ion-icon class="home-icon" name="home-outline"></ion-icon>
-                        <h1>Docs</h1>
+                        <p>Docs</p>
                     </div>
                     <div class="search-xmark-icon-container">
                         <ion-icon class="search-icon" name="search-sharp"></ion-icon>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <h1 class="main-menu-header">JayCom Help Central</h1>
-                <a href="" class="main-menu-link">Home</a>
+                <a href="/index.html" class="main-menu-link">JayCom - Home</a>
                 <a href="" class="main-menu-link">Guide 1</a>
                 <a href="" class="main-menu-link">Guide 2</a>
                 <a href="" class="main-menu-link">Guide 3</a>
@@ -67,7 +67,7 @@
         </div>
     </div>
 
-    <section id="guide1-section">
+    <section id="guide-1-section">
 
         <!-- ==TABLE=OF=CONTENTS==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV -->
         <div id="table-contents-container">
@@ -91,7 +91,7 @@
                 </div>
                 <div id="table-contents-links-container-1">
                     <a href="">
-                        <div id="table-contents-link">
+                        <div id="table-contents-link" class="active">
                             <h1>Section 1 - Welcome to JayCom Help Central</h1>
                         </div>
                     </a>
@@ -321,47 +321,42 @@
             <!-- ==END=OF=TABLE=OF=CONTENTS================================================ -->
 
         </div>
-        <div class="article-container">
-            <div class="section-header">
-                <h1 class="article-title">Welcome to JayCom Help Central</h1>
-                <p class="article-details">Article - date - minutes to read</p>
-                <div class="rate-box">
-                    <i class="fa-solid fa-thumbs-up"></i>
-                    <i class="fa-solid fa-thumbs-down"></i>
+        <div class="article-1-flexbox">
+            <div id="article-1-container">
+                <div class="article-1-text-container">
+                    <div class="section-header">
+                        <h1 id="article-1-section-1-title"></h1>
+                        <p id="article-1-section-1-details"></p>
+                        <div class="rate-box">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                        </div>
+                    </div>
+                    <div class="article-1-main-text">
+                        <p id="article-1-section-1-text"></p>
+                        <h1 id="article-1-section-2-title"></h1>
+                        <p id="article-1-section-2-text"></p>
+                        <h1 id="article-1-other-title"></h1>
+                        <p id="article-1-other-text"></p>
+                    </div>
+                </div>
+
+                <div class="in-this-article-container">
+                    <h1>In this article</h1>
+                    <a href="/guide1.html" class="article-section-link active">Section 1</a>
+                    <a href="/guide1.html" class="article-section-link">Section 2</a>
+                    <a href="/guide1.html" class="article-section-link">Other</a>
+                    <a href="/guide1.html" class="article-section-link">Other</a>
                 </div>
             </div>
-            <div class="article-main-text">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorum sunt tempora ex deserunt
-                    a,
-                    quod, esse, vero nostrum voluptate eum reiciendis cum nisi neque pariatur. Deleniti consequatur
-                    beatae
-                    placeat iure veritatis natus fugit nulla atque, amet dolore numquam quas, adipisci ipsa temporibus
-                    magnam saepe eligendi in corporis minus pariatur eos. Neque enim, deserunt, magni molestiae
-                    reiciendis
-                    accusamus est cupiditate id laborum ad explicabo eaque. Vero exercitationem aperiam sapiente
-                    excepturi
-                    necessitatibus rerum molestiae, esse facilis maiores saepe dolorum laborum. Alias dignissimos facere
-                    similique eos atque quod et nisi dolore enim ipsam quae maxime quisquam voluptatum at, animi,
-                    reiciendis
-                    quis explicabo!
-                </p>
-
-            </div>
         </div>
-        <div class="in-this-article-container">
-            <h1>In this article</h1>
-            <a href="/guide1.html" class="article-section-link active">Overview</a>
-            <a href="/guide1.html" class="article-section-link">Overview</a>
-            <a href="/guide1.html" class="article-section-link">Overview</a>
-            <a href="/guide1.html" class="article-section-link">Overview</a>
-        </div>
-
     </section>
 
     <footer class="main-footer">&copy JayCom US Enterprises Inc. 2022</footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="/main.js"></script>
+    <script src="/content.js"></script>
 </body>
 
 </html>

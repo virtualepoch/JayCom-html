@@ -36,7 +36,7 @@
   line-height: 13px;
   padding: 2px 4px;
 }
-#guide1-section {
+#guide-1-section {
   max-width: 1600px;
   margin: 0 auto;
   display: flex;
@@ -45,6 +45,7 @@
 /* ==TABLE=CONTENTS=STYLING==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 #table-contents-container {
   flex: 30%;
+  min-width: 280px;
   height: 90vh;
   padding: 0 20px;
   overflow-x: hidden;
@@ -152,25 +153,35 @@
   color: black;
   cursor: pointer;
 }
+#table-contents-link.active h1 {
+  font-weight: 600;
+  text-decoration: underline;
+}
 #table-contents-link:hover {
   text-decoration: underline;
 }
 
 /* ==MIDDLE=FLEX=BOX==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
-.article-container {
+#article-1-flexbox {
+  flex: 90%;
+}
+#article-1-container {
+  display: flex;
+}
+.article-1-text-container {
+  border: 1px solid gray;
   flex: 70%;
 }
 .section-header {
-  border: 1px solid gray;
   padding: 20px;
 }
-.article-title {
+#article-1-section-1-title {
   font-size: 33px;
   font-weight: 600;
   margin-bottom: 10px;
   color: #4287d5;
 }
-.article-details {
+.article-1-section-1-details {
   font-size: 14px;
 }
 .rate-box {
@@ -185,15 +196,35 @@
   color: white;
   background-color: black;
 }
-.article-main-text {
-  border: 1px solid gray;
+.article-1-main-text {
   line-height: 30px;
   padding: 20px;
+}
+#article-1-section-1-text,
+#article-1-section-2-text,
+#article-1-other-text {
+  margin-bottom: 100px;
+}
+#article-1-section-2-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 30px 0;
+  color: #4287d5;
+}
+#article-1-other-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 30px 0;
+  color: #4287d5;
+}
+#article-1-other-text {
+  height: 888px;
 }
 
 /* ==IN=THIS=ARTICLE=SECTION==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 .in-this-article-container {
-  flex: 20%;
+  flex: 10%;
+
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -216,4 +247,46 @@
 .in-this-article-container a.active {
   border-left: 2px solid #4287d5;
   font-weight: 500;
+}
+
+/* ==TESTING==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
+.test-container {
+  border: solid red;
+  height: 1000px;
+}
+.client-input-container {
+  border: 1px solid black;
+  box-shadow: 0 0 100px 15px inset gray;
+  border-radius: 11px;
+  height: 333px;
+  margin: 11px;
+}
+
+#input-field {
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#add-to-do {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+.to-dos {
+  border: solid #4287d5;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
 }
