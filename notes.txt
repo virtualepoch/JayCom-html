@@ -1,0 +1,30 @@
+window.onscroll = function () {
+  scroll();
+};
+
+function scroll() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("to-top-button").style.bottom = "10px";
+  } else {
+    document.getElementById("to-top-button").style.bottom = "-100px";
+  }
+}
+
+
+
+window.onscroll = function () {
+  scroll();
+};
+
+var section_2 = document.getElementById("article-1-section-2-title");
+var section_2_side_tab = document.getElementById("article-section-2-link");
+
+function scroll() {
+  if (document.documentElement.scrollTop > 100) {
+    section_2_side_tab.style.border = "solid";
+    section_2.style.color = "red";
+  } else {
+    section_2_side_tab.style = "";
+    section_2.style.color = "";
+  }
+}

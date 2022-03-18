@@ -1,253 +1,270 @@
-var main_menu = document.getElementById("main-menu-container");
+var mainMenu = document.getElementById("main-menu-container");
 
 function openMainMenu() {
-  if (main_menu.style.display == "") {
-    main_menu.style.display = "block";
+  if (mainMenu.style.display == "") {
+    mainMenu.style.display = "block";
   } else {
-    main_menu.style.display = "";
+    mainMenu.style.display = "";
   }
 }
 
-var table_contents = document.getElementById("table-contents-container");
+var tableContents = document.getElementById("table-contents-container");
 
 function openTableContents() {
-  if (table_contents.style.display == "") {
-    table_contents.style.display = "block";
+  if (tableContents.style.display == "") {
+    tableContents.style.display = "block";
   } else {
-    table_contents.style.display = "";
+    tableContents.style.display = "";
   }
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=1=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guide_1_contents = document.getElementById("table-contents-articles-container-1");
-var guide_arrow_1 = document.getElementById("guide-arrow-1");
+var guideContents_1 = document.getElementById("table-contents-articles-container-1");
+var guideArrow_1 = document.getElementById("guide-arrow-1");
 
 function expandGuide_1() {
-  if (guide_1_contents.style.display == "") {
-    guide_1_contents.style.display = "block";
-    guide_arrow_1.style.transform = "rotate(90deg)";
+  if (guideContents_1.style.display == "") {
+    guideContents_1.style.display = "block";
+    guideArrow_1.style.transform = "rotate(90deg)";
   } else {
-    guide_1_contents.style.display = "";
-    guide_arrow_1.style.transform = "none";
+    guideContents_1.style.display = "";
+    guideArrow_1.style.transform = "none";
   }
 }
 
-var article_1_contents = document.getElementById("table-contents-links-container-1");
-var article_arrow_1 = document.getElementById("article-arrow-1");
+var articleContents_1 = document.getElementById("table-contents-links-container-1");
+var articleArrow_1 = document.getElementById("article-arrow-1");
 
 function expandArticle_1() {
-  if (article_1_contents.style.display == "") {
-    article_1_contents.style.display = "block";
-    article_arrow_1.style.transform = "rotate(90deg)";
+  if (articleContents_1.style.display == "") {
+    articleContents_1.style.display = "block";
+    articleArrow_1.style.transform = "rotate(90deg)";
   } else {
-    article_1_contents.style.display = "";
-    article_arrow_1.style.transform = "none";
+    articleContents_1.style.display = "";
+    articleArrow_1.style.transform = "none";
   }
 }
-var article_2_contents = document.getElementById("table-contents-links-container-2");
-var article_arrow_2 = document.getElementById("article-arrow-2");
+var articleContents_2 = document.getElementById("table-contents-links-container-2");
+var articleArrow_2 = document.getElementById("article-arrow-2");
 
 function expandArticle_2() {
-  if (article_2_contents.style.display == "") {
-    article_2_contents.style.display = "block";
-    article_arrow_2.style.transform = "rotate(90deg)";
+  if (articleContents_2.style.display == "") {
+    articleContents_2.style.display = "block";
+    articleArrow_2.style.transform = "rotate(90deg)";
   } else {
-    article_2_contents.style.display = "";
-    article_arrow_2.style.transform = "none";
+    articleContents_2.style.display = "";
+    articleArrow_2.style.transform = "none";
   }
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=2=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guide_2_contents = document.getElementById("table-contents-articles-container-2");
-var guide_arrow_2 = document.getElementById("guide-arrow-2");
+var guideContents_2 = document.getElementById("table-contents-articles-container-2");
+var guideArrow_2 = document.getElementById("guide-arrow-2");
 
 function expandGuide_2() {
-  if (guide_2_contents.style.display == "") {
-    guide_2_contents.style.display = "block";
-    guide_arrow_2.style.transform = "rotate(90deg)";
+  if (guideContents_2.style.display == "") {
+    guideContents_2.style.display = "block";
+    guideArrow_2.style.transform = "rotate(90deg)";
   } else {
-    guide_2_contents.style.display = "";
-    guide_arrow_2.style.transform = "none";
+    guideContents_2.style.display = "";
+    guideArrow_2.style.transform = "none";
   }
 }
 
-var article_3_contents = document.getElementById("table-contents-links-container-3");
-var article_arrow_3 = document.getElementById("article-arrow-3");
+var articleContents_3 = document.getElementById("table-contents-links-container-3");
+var articleArrow_3 = document.getElementById("article-arrow-3");
 
 function expandArticle_3() {
-  if (article_3_contents.style.display == "") {
-    article_3_contents.style.display = "block";
-    article_arrow_3.style.transform = "rotate(90deg)";
+  if (articleContents_3.style.display == "") {
+    articleContents_3.style.display = "block";
+    articleArrow_3.style.transform = "rotate(90deg)";
   } else {
-    article_3_contents.style.display = "";
-    article_arrow_3.style.transform = "none";
+    articleContents_3.style.display = "";
+    articleArrow_3.style.transform = "none";
   }
 }
-var article_4_contents = document.getElementById("table-contents-links-container-4");
-var article_arrow_4 = document.getElementById("article-arrow-4");
+var articleContents_4 = document.getElementById("table-contents-links-container-4");
+var articleArrow_4 = document.getElementById("article-arrow-4");
 
 function expandArticle_4() {
-  if (article_4_contents.style.display == "") {
-    article_4_contents.style.display = "block";
-    article_arrow_4.style.transform = "rotate(90deg)";
+  if (articleContents_4.style.display == "") {
+    articleContents_4.style.display = "block";
+    articleArrow_4.style.transform = "rotate(90deg)";
   } else {
-    article_4_contents.style.display = "";
-    article_arrow_4.style.transform = "none";
+    articleContents_4.style.display = "";
+    articleArrow_4.style.transform = "none";
   }
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=3=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guide_3_contents = document.getElementById("table-contents-articles-container-3");
-var guide_arrow_3 = document.getElementById("guide-arrow-3");
+var guideContents_3 = document.getElementById("table-contents-articles-container-3");
+var guideArrow_3 = document.getElementById("guide-arrow-3");
 
 function expandGuide_3() {
-  if (guide_3_contents.style.display == "") {
-    guide_3_contents.style.display = "block";
-    guide_arrow_3.style.transform = "rotate(90deg)";
+  if (guideContents_3.style.display == "") {
+    guideContents_3.style.display = "block";
+    guideArrow_3.style.transform = "rotate(90deg)";
   } else {
-    guide_3_contents.style.display = "";
-    guide_arrow_3.style.transform = "none";
+    guideContents_3.style.display = "";
+    guideArrow_3.style.transform = "none";
   }
 }
 
-var article_5_contents = document.getElementById("table-contents-links-container-5");
-var article_arrow_5 = document.getElementById("article-arrow-5");
+var articleContents_5 = document.getElementById("table-contents-links-container-5");
+var articleArrow_5 = document.getElementById("article-arrow-5");
 
 function expandArticle_5() {
-  if (article_5_contents.style.display == "") {
-    article_5_contents.style.display = "block";
-    article_arrow_5.style.transform = "rotate(90deg)";
+  if (articleContents_5.style.display == "") {
+    articleContents_5.style.display = "block";
+    articleArrow_5.style.transform = "rotate(90deg)";
   } else {
-    article_5_contents.style.display = "";
-    article_arrow_5.style.transform = "none";
+    articleContents_5.style.display = "";
+    articleArrow_5.style.transform = "none";
   }
 }
-var article_6_contents = document.getElementById("table-contents-links-container-6");
-var article_arrow_6 = document.getElementById("article-arrow-6");
+var articleContents_6 = document.getElementById("table-contents-links-container-6");
+var articleArrow_6 = document.getElementById("article-arrow-6");
 
 function expandArticle_6() {
-  if (article_6_contents.style.display == "") {
-    article_6_contents.style.display = "block";
-    article_arrow_6.style.transform = "rotate(90deg)";
+  if (articleContents_6.style.display == "") {
+    articleContents_6.style.display = "block";
+    articleArrow_6.style.transform = "rotate(90deg)";
   } else {
-    article_6_contents.style.display = "";
-    article_arrow_6.style.transform = "none";
+    articleContents_6.style.display = "";
+    articleArrow_6.style.transform = "none";
   }
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=4=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guide_4_contents = document.getElementById("table-contents-articles-container-4");
-var guide_arrow_4 = document.getElementById("guide-arrow-4");
+var guideContents_4 = document.getElementById("table-contents-articles-container-4");
+var guideArrow_4 = document.getElementById("guide-arrow-4");
 
 function expandGuide_4() {
-  if (guide_4_contents.style.display == "") {
-    guide_4_contents.style.display = "block";
-    guide_arrow_4.style.transform = "rotate(90deg)";
+  if (guideContents_4.style.display == "") {
+    guideContents_4.style.display = "block";
+    guideArrow_4.style.transform = "rotate(90deg)";
   } else {
-    guide_4_contents.style.display = "";
-    guide_arrow_4.style.transform = "none";
+    guideContents_4.style.display = "";
+    guideArrow_4.style.transform = "none";
   }
 }
 
-var article_7_contents = document.getElementById("table-contents-links-container-7");
-var article_arrow_7 = document.getElementById("article-arrow-7");
+var articleContents_7 = document.getElementById("table-contents-links-container-7");
+var articleArrow_7 = document.getElementById("article-arrow-7");
 
 function expandArticle_7() {
-  if (article_7_contents.style.display == "") {
-    article_7_contents.style.display = "block";
-    article_arrow_7.style.transform = "rotate(90deg)";
+  if (articleContents_7.style.display == "") {
+    articleContents_7.style.display = "block";
+    articleArrow_7.style.transform = "rotate(90deg)";
   } else {
-    article_7_contents.style.display = "";
-    article_arrow_7.style.transform = "none";
+    articleContents_7.style.display = "";
+    articleArrow_7.style.transform = "none";
   }
 }
-var article_8_contents = document.getElementById("table-contents-links-container-8");
-var article_arrow_8 = document.getElementById("article-arrow-8");
+var articleContents_8 = document.getElementById("table-contents-links-container-8");
+var articleArrow_8 = document.getElementById("article-arrow-8");
 
 function expandArticle_8() {
-  if (article_8_contents.style.display == "") {
-    article_8_contents.style.display = "block";
-    article_arrow_8.style.transform = "rotate(90deg)";
+  if (articleContents_8.style.display == "") {
+    articleContents_8.style.display = "block";
+    articleArrow_8.style.transform = "rotate(90deg)";
   } else {
-    article_8_contents.style.display = "";
-    article_arrow_8.style.transform = "none";
+    articleContents_8.style.display = "";
+    articleArrow_8.style.transform = "none";
   }
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=5=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guide_5_contents = document.getElementById("table-contents-articles-container-5");
-var guide_arrow_5 = document.getElementById("guide-arrow-5");
+var guideContents_5 = document.getElementById("table-contents-articles-container-5");
+var guideArrow_5 = document.getElementById("guide-arrow-5");
 
 function expandGuide_5() {
-  if (guide_5_contents.style.display == "") {
-    guide_5_contents.style.display = "block";
-    guide_arrow_5.style.transform = "rotate(90deg)";
+  if (guideContents_5.style.display == "") {
+    guideContents_5.style.display = "block";
+    guideArrow_5.style.transform = "rotate(90deg)";
   } else {
-    guide_5_contents.style.display = "";
-    guide_arrow_5.style.transform = "none";
+    guideContents_5.style.display = "";
+    guideArrow_5.style.transform = "none";
   }
 }
 
-var article_9_contents = document.getElementById("table-contents-links-container-9");
-var article_arrow_9 = document.getElementById("article-arrow-9");
+var articleContents_9 = document.getElementById("table-contents-links-container-9");
+var articleArrow_9 = document.getElementById("article-arrow-9");
 
 function expandArticle_9() {
-  if (article_9_contents.style.display == "") {
-    article_9_contents.style.display = "block";
-    article_arrow_9.style.transform = "rotate(90deg)";
+  if (articleContents_9.style.display == "") {
+    articleContents_9.style.display = "block";
+    articleArrow_9.style.transform = "rotate(90deg)";
   } else {
-    article_9_contents.style.display = "";
-    article_arrow_9.style.transform = "none";
+    articleContents_9.style.display = "";
+    articleArrow_9.style.transform = "none";
   }
 }
-var article_10_contents = document.getElementById("table-contents-links-container-10");
-var article_arrow_10 = document.getElementById("article-arrow-10");
+var articleContents_10 = document.getElementById("table-contents-links-container-10");
+var articleArrow_10 = document.getElementById("article-arrow-10");
 
 function expandArticle_10() {
-  if (article_10_contents.style.display == "") {
-    article_10_contents.style.display = "block";
-    article_arrow_10.style.transform = "rotate(90deg)";
+  if (articleContents_10.style.display == "") {
+    articleContents_10.style.display = "block";
+    articleArrow_10.style.transform = "rotate(90deg)";
   } else {
-    article_10_contents.style.display = "";
-    article_arrow_10.style.transform = "none";
+    articleContents_10.style.display = "";
+    articleArrow_10.style.transform = "none";
   }
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=6=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guide_6_contents = document.getElementById("table-contents-articles-container-6");
-var guide_arrow_6 = document.getElementById("guide-arrow-6");
+var guideContents_6 = document.getElementById("table-contents-articles-container-6");
+var guideArrow_6 = document.getElementById("guide-arrow-6");
 
 function expandGuide_6() {
-  if (guide_6_contents.style.display == "") {
-    guide_6_contents.style.display = "block";
-    guide_arrow_6.style.transform = "rotate(90deg)";
+  if (guideContents_6.style.display == "") {
+    guideContents_6.style.display = "block";
+    guideArrow_6.style.transform = "rotate(90deg)";
   } else {
-    guide_6_contents.style.display = "";
-    guide_arrow_6.style.transform = "none";
+    guideContents_6.style.display = "";
+    guideArrow_6.style.transform = "none";
   }
 }
 
-var article_11_contents = document.getElementById("table-contents-links-container-11");
-var article_arrow_11 = document.getElementById("article-arrow-11");
+var articleContents_11 = document.getElementById("table-contents-links-container-11");
+var articleArrow_11 = document.getElementById("article-arrow-11");
 
 function expandArticle_11() {
-  if (article_11_contents.style.display == "") {
-    article_11_contents.style.display = "block";
-    article_arrow_11.style.transform = "rotate(90deg)";
+  if (articleContents_11.style.display == "") {
+    articleContents_11.style.display = "block";
+    articleArrow_11.style.transform = "rotate(90deg)";
   } else {
-    article_11_contents.style.display = "";
-    article_arrow_11.style.transform = "none";
+    articleContents_11.style.display = "";
+    articleArrow_11.style.transform = "none";
   }
 }
-var article_12_contents = document.getElementById("table-contents-links-container-12");
-var article_arrow_12 = document.getElementById("article-arrow-12");
+var articleContents_12 = document.getElementById("table-contents-links-container-12");
+var articleArrow_12 = document.getElementById("article-arrow-12");
 
 function expandArticle_12() {
-  if (article_12_contents.style.display == "") {
-    article_12_contents.style.display = "block";
-    article_arrow_12.style.transform = "rotate(90deg)";
+  if (articleContents_12.style.display == "") {
+    articleContents_12.style.display = "block";
+    articleArrow_12.style.transform = "rotate(90deg)";
   } else {
-    article_12_contents.style.display = "";
-    article_arrow_12.style.transform = "none";
+    articleContents_12.style.display = "";
+    articleArrow_12.style.transform = "none";
   }
 }
+
+// ==SCROLL=CHANGE=IN=THIS=ARTICLE=STYLING==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+const article_section_2_link = document.querySelector("#article-section-2-link");
+const topSection = document.querySelector("#article-1-section-1-text");
+
+const navObserver = new IntersectionObserver((entries, observer) => {
+  const entry = entries[0];
+  if(!entry.isIntersecting){
+    article_section_2_link.classList.add("active");
+  }else{
+    article_section_2_link.classList.remove("active");
+  }
+},{});
+navObserver.observe(topSection);
+
+
