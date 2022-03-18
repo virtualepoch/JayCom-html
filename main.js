@@ -252,19 +252,60 @@ function expandArticle_12() {
   }
 }
 
-// ==SCROLL=CHANGE=IN=THIS=ARTICLE=STYLING==VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+// ==ON=LOAD==IN=THIS=ARTICLE==STYLE=CHANGE=(ADD ACTIVE CLASS ON PAGE LOAD)==
+var articleSectionTab_1 = document.getElementById("article-section-1-tab");
 
-const article_section_2_link = document.querySelector("#article-section-2-link");
-const topSection = document.querySelector("#article-1-section-1-text");
+window.onload = function articleTabStyle() {
+  articleSectionTab_1.classList.add("active");
+};
+
+// ==SCROLL=CHANGE=IN=THIS=ARTICLE=STYLING==SECTION_1==///////////////
+var section_1 = document.querySelector("#article-1-section-1-text");
+var articleSectionTab_1 = document.querySelector("#article-section-1-tab");
+var articleSectionTab_2 = document.querySelector("#article-section-2-tab");
 
 const navObserver = new IntersectionObserver((entries, observer) => {
   const entry = entries[0];
-  if(!entry.isIntersecting){
-    article_section_2_link.classList.add("active");
-  }else{
-    article_section_2_link.classList.remove("active");
+  if (!entry.isIntersecting) {
+    articleSectionTab_1.classList.remove("active");
+    articleSectionTab_2.classList.add("active");
+  } else {
+    articleSectionTab_2.classList.remove("active");
+    articleSectionTab_1.classList.add("active");
   }
-},{});
-navObserver.observe(topSection);
+}, {});
+navObserver.observe(section_1);
 
+// ==SCROLL=CHANGE=IN=THIS=ARTICLE=STYLING==SECTION_1==///////////////
+var section_2 = document.querySelector("#article-1-section-2-text");
+var articleSectionTab_2 = document.querySelector("#article-section-2-tab");
+var articleSectionTab_3 = document.querySelector("#article-section-3-tab");
 
+const navObserver2 = new IntersectionObserver((entries, observer) => {
+  const entry = entries[0];
+  if (!entry.isIntersecting) {
+    articleSectionTab_2.classList.remove("active");
+    articleSectionTab_3.classList.add("active");
+  } else {
+    articleSectionTab_3.classList.remove("active");
+    articleSectionTab_2.classList.add("active");
+  }
+}, {});
+navObserver2.observe(section_2);
+
+// ==SCROLL=CHANGE=IN=THIS=ARTICLE=STYLING==SECTION_1==///////////////
+var section_3 = document.querySelector("#article-1-section-3-text");
+var articleSectionTab_3 = document.querySelector("#article-section-3-tab");
+var articleSectionTab_4 = document.querySelector("#article-section-4-tab");
+
+const navObserver3 = new IntersectionObserver((entries, observer) => {
+  const entry = entries[0];
+  if (!entry.isIntersecting) {
+    articleSectionTab_3.classList.remove("active");
+    articleSectionTab_4.classList.add("active");
+  } else {
+    articleSectionTab_4.classList.remove("active");
+    articleSectionTab_3.classList.add("active");
+  }
+}, {});
+navObserver3.observe(section_3);

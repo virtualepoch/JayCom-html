@@ -256,8 +256,10 @@
 .in-this-article-container h2:hover {
   text-decoration: underline;
 }
-#article-section-1-link.active h2,
-#article-section-2-link.active h2 {
+#article-section-1-tab.active h2,
+#article-section-2-tab.active h2,
+#article-section-3-tab.active h2,
+#article-section-4-tab.active h2 {
   border-left: 2px solid #4287d5;
   font-weight: 500;
 }
