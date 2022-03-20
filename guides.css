@@ -248,7 +248,7 @@
   margin-bottom: 100px;
 }
 #rocket-chat-icon {
-  font-size: 100px;
+  font-size:clamp(80px,10px + 10vw, 200px);
   position: fixed;
   top: 15vh;
   left:-999px;
@@ -260,6 +260,12 @@
 }
 .article-section-img{
   max-width: 100%;
+}
+@media (max-width:700px) {
+  #article-1-section-4-content-box iframe{
+    height: 300px;
+  }
+  
 }
 /* ==IN=THIS=ARTICLE=SECTION==vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 .in-this-article-container {
