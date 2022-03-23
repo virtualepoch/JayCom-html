@@ -13,15 +13,22 @@
 .table-contents-button-container {
   max-width: 1600px;
   margin: 0 auto;
-}
+  display: block;
+  position: sticky;
+  top: 0;
+  }
 .table-contents-button {
+  position: sticky;
+  top: 0;
   width: fit-content;
+  height: auto;
   border: 1px solid #4287d5;
   display: flex;
   margin: 20px;
   padding: 5px;
   cursor: pointer;
   color: #4287d5;
+  background-color: rgb(255, 255, 255,.8);
 }
 .table-contents-button:hover {
   background-color: #f6f6f6;
@@ -52,6 +59,7 @@
   padding: 10px 20px 80px 20px;
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: white;
   display: none;
 }
 .mobile-header {
@@ -246,17 +254,6 @@
 .article-1-main-text p {
   line-height: 30px;
   margin-bottom: 100px;
-}
-#rocket-chat-icon {
-  font-size:clamp(80px,10px + 10vw, 200px);
-  position: fixed;
-  top: 15vh;
-  left:-999px;
-  transition: 1s;
-}
-#rocket-chat-icon.active{
-  left:60vw;
-  transition: 1s;
 }
 .article-section-img{
   max-width: 100%;
