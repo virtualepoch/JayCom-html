@@ -184,7 +184,7 @@
 #table-contents-links-container-12 {
   display: none;
 }
-#table-contents-link,
+#table-contents-link h1,
 #table-contents-link-1 h1,
 #table-contents-link-2 h1,
 #table-contents-link-3 h1,
@@ -207,6 +207,8 @@
   font-weight: 600;
   text-decoration: underline;
 }
+
+#table-contents-link:hover,
 #table-contents-link-1:hover,
 #table-contents-link-2:hover,
 #table-contents-link-3:hover,
