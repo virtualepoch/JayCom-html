@@ -1,4 +1,4 @@
-var mainMenu = document.getElementById("main-menu-container");
+const mainMenu = document.getElementById("main-menu-container");
 
 function openMainMenu() {
   if (mainMenu.style.display == "") {
@@ -8,7 +8,7 @@ function openMainMenu() {
   }
 }
 
-var tableContents = document.getElementById("table-contents-container");
+const tableContents = document.getElementById("table-contents-container");
 
 function openTableContents() {
   if (tableContents.style.display == "") {
@@ -19,8 +19,8 @@ function openTableContents() {
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=1=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guideContents_1 = document.getElementById("table-contents-articles-container-1");
-var guideArrow_1 = document.getElementById("guide-arrow-1");
+const guideContents_1 = document.getElementById("table-contents-articles-container-1");
+const guideArrow_1 = document.getElementById("guide-arrow-1");
 
 function expandGuide_1() {
   if (guideContents_1.style.display == "") {
@@ -32,8 +32,8 @@ function expandGuide_1() {
   }
 }
 
-var articleContents_1 = document.getElementById("table-contents-links-container-1");
-var articleArrow_1 = document.getElementById("article-arrow-1");
+const articleContents_1 = document.getElementById("table-contents-links-container-1");
+const articleArrow_1 = document.getElementById("article-arrow-1");
 
 function expandArticle_1() {
   if (articleContents_1.style.display == "") {
@@ -44,8 +44,8 @@ function expandArticle_1() {
     articleArrow_1.style.transform = "none";
   }
 }
-var articleContents_2 = document.getElementById("table-contents-links-container-2");
-var articleArrow_2 = document.getElementById("article-arrow-2");
+const articleContents_2 = document.getElementById("table-contents-links-container-2");
+const articleArrow_2 = document.getElementById("article-arrow-2");
 
 function expandArticle_2() {
   if (articleContents_2.style.display == "") {
@@ -58,8 +58,8 @@ function expandArticle_2() {
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=2=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guideContents_2 = document.getElementById("table-contents-articles-container-2");
-var guideArrow_2 = document.getElementById("guide-arrow-2");
+const guideContents_2 = document.getElementById("table-contents-articles-container-2");
+const guideArrow_2 = document.getElementById("guide-arrow-2");
 
 function expandGuide_2() {
   if (guideContents_2.style.display == "") {
@@ -71,8 +71,8 @@ function expandGuide_2() {
   }
 }
 
-var articleContents_3 = document.getElementById("table-contents-links-container-3");
-var articleArrow_3 = document.getElementById("article-arrow-3");
+const articleContents_3 = document.getElementById("table-contents-links-container-3");
+const articleArrow_3 = document.getElementById("article-arrow-3");
 
 function expandArticle_3() {
   if (articleContents_3.style.display == "") {
@@ -83,8 +83,8 @@ function expandArticle_3() {
     articleArrow_3.style.transform = "none";
   }
 }
-var articleContents_4 = document.getElementById("table-contents-links-container-4");
-var articleArrow_4 = document.getElementById("article-arrow-4");
+const articleContents_4 = document.getElementById("table-contents-links-container-4");
+const articleArrow_4 = document.getElementById("article-arrow-4");
 
 function expandArticle_4() {
   if (articleContents_4.style.display == "") {
@@ -97,8 +97,8 @@ function expandArticle_4() {
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=3=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guideContents_3 = document.getElementById("table-contents-articles-container-3");
-var guideArrow_3 = document.getElementById("guide-arrow-3");
+const guideContents_3 = document.getElementById("table-contents-articles-container-3");
+const guideArrow_3 = document.getElementById("guide-arrow-3");
 
 function expandGuide_3() {
   if (guideContents_3.style.display == "") {
@@ -110,8 +110,8 @@ function expandGuide_3() {
   }
 }
 
-var articleContents_5 = document.getElementById("table-contents-links-container-5");
-var articleArrow_5 = document.getElementById("article-arrow-5");
+const articleContents_5 = document.getElementById("table-contents-links-container-5");
+const articleArrow_5 = document.getElementById("article-arrow-5");
 
 function expandArticle_5() {
   if (articleContents_5.style.display == "") {
@@ -122,8 +122,8 @@ function expandArticle_5() {
     articleArrow_5.style.transform = "none";
   }
 }
-var articleContents_6 = document.getElementById("table-contents-links-container-6");
-var articleArrow_6 = document.getElementById("article-arrow-6");
+const articleContents_6 = document.getElementById("table-contents-links-container-6");
+const articleArrow_6 = document.getElementById("article-arrow-6");
 
 function expandArticle_6() {
   if (articleContents_6.style.display == "") {
@@ -136,8 +136,8 @@ function expandArticle_6() {
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=4=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guideContents_4 = document.getElementById("table-contents-articles-container-4");
-var guideArrow_4 = document.getElementById("guide-arrow-4");
+const guideContents_4 = document.getElementById("table-contents-articles-container-4");
+const guideArrow_4 = document.getElementById("guide-arrow-4");
 
 function expandGuide_4() {
   if (guideContents_4.style.display == "") {
@@ -149,8 +149,8 @@ function expandGuide_4() {
   }
 }
 
-var articleContents_7 = document.getElementById("table-contents-links-container-7");
-var articleArrow_7 = document.getElementById("article-arrow-7");
+const articleContents_7 = document.getElementById("table-contents-links-container-7");
+const articleArrow_7 = document.getElementById("article-arrow-7");
 
 function expandArticle_7() {
   if (articleContents_7.style.display == "") {
@@ -161,8 +161,8 @@ function expandArticle_7() {
     articleArrow_7.style.transform = "none";
   }
 }
-var articleContents_8 = document.getElementById("table-contents-links-container-8");
-var articleArrow_8 = document.getElementById("article-arrow-8");
+const articleContents_8 = document.getElementById("table-contents-links-container-8");
+const articleArrow_8 = document.getElementById("article-arrow-8");
 
 function expandArticle_8() {
   if (articleContents_8.style.display == "") {
@@ -175,8 +175,8 @@ function expandArticle_8() {
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=5=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guideContents_5 = document.getElementById("table-contents-articles-container-5");
-var guideArrow_5 = document.getElementById("guide-arrow-5");
+const guideContents_5 = document.getElementById("table-contents-articles-container-5");
+const guideArrow_5 = document.getElementById("guide-arrow-5");
 
 function expandGuide_5() {
   if (guideContents_5.style.display == "") {
@@ -188,8 +188,8 @@ function expandGuide_5() {
   }
 }
 
-var articleContents_9 = document.getElementById("table-contents-links-container-9");
-var articleArrow_9 = document.getElementById("article-arrow-9");
+const articleContents_9 = document.getElementById("table-contents-links-container-9");
+const articleArrow_9 = document.getElementById("article-arrow-9");
 
 function expandArticle_9() {
   if (articleContents_9.style.display == "") {
@@ -200,8 +200,8 @@ function expandArticle_9() {
     articleArrow_9.style.transform = "none";
   }
 }
-var articleContents_10 = document.getElementById("table-contents-links-container-10");
-var articleArrow_10 = document.getElementById("article-arrow-10");
+const articleContents_10 = document.getElementById("table-contents-links-container-10");
+const articleArrow_10 = document.getElementById("article-arrow-10");
 
 function expandArticle_10() {
   if (articleContents_10.style.display == "") {
@@ -214,8 +214,8 @@ function expandArticle_10() {
 }
 
 // ==TABLE=OF=CONTENTS=CONTAINER==GUIDE=6=EXPAND=FUNCTIONS==VVVVVVVVVVVVVVVVVVVVVVV
-var guideContents_6 = document.getElementById("table-contents-articles-container-6");
-var guideArrow_6 = document.getElementById("guide-arrow-6");
+const guideContents_6 = document.getElementById("table-contents-articles-container-6");
+const guideArrow_6 = document.getElementById("guide-arrow-6");
 
 function expandGuide_6() {
   if (guideContents_6.style.display == "") {
@@ -227,8 +227,8 @@ function expandGuide_6() {
   }
 }
 
-var articleContents_11 = document.getElementById("table-contents-links-container-11");
-var articleArrow_11 = document.getElementById("article-arrow-11");
+const articleContents_11 = document.getElementById("table-contents-links-container-11");
+const articleArrow_11 = document.getElementById("article-arrow-11");
 
 function expandArticle_11() {
   if (articleContents_11.style.display == "") {
@@ -239,8 +239,8 @@ function expandArticle_11() {
     articleArrow_11.style.transform = "none";
   }
 }
-var articleContents_12 = document.getElementById("table-contents-links-container-12");
-var articleArrow_12 = document.getElementById("article-arrow-12");
+const articleContents_12 = document.getElementById("table-contents-links-container-12");
+const articleArrow_12 = document.getElementById("article-arrow-12");
 
 function expandArticle_12() {
   if (articleContents_12.style.display == "") {
