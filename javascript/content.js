@@ -1,5 +1,5 @@
 
-let guide_1_article_1_title = "Welcome to JayCom Help Central";
+let guide_1_article_1_title = "Welcome to Help Central";
 document.getElementById("guide-1-article-1-title").innerHTML = guide_1_article_1_title
 
 let article_1_section_1_details = "Article 1 - date - minutes to read";
